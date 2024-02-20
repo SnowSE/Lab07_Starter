@@ -2,13 +2,12 @@ using Lab07.Logic;
 
 namespace Lab07.Tests;
 
-
 public class RectangleTests
 {
     Rectangle rectangle;
     AbstractGraphic2D shape;
 
-    public void RectangleTests()
+    public RectangleTests()
     {
         rectangle = new Rectangle(3, 4, 5, 6);
         shape = rectangle;
